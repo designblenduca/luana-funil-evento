@@ -5,7 +5,7 @@ const speakers = [
   {
     name: 'Fernanda Ciello',
     instagram: '@fernandaciello',
-    image: 'assets/fernanda-ciello.jpg',
+    image: 'assets/fernanda-ciello.png',
     bio: 'Economista, especialista em venda comportamental e apaixonada por autoconhecimento. Desenvolve empreendedoras e times de vendas para acessar novos níveis de resultado através de uma venda intencional e persuasiva.',
     credentials: '+1100 vidas impactadas · +46 nichos de atuação · Brasil e Portugal',
     theme:
