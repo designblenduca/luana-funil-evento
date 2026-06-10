@@ -24,7 +24,7 @@ export default function Conductor() {
                 </div>
               ) : (
                 <img
-                  src={`${assetBase}assets/luana-carraro.jpg`}
+                  src={`${assetBase}assets/luana-carraro.png`}
                   alt="Luana Carraro"
                   className="h-full w-full object-cover"
                   onError={() => setImgError(true)}
