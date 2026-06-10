@@ -14,12 +14,12 @@ export default function Header() {
 
   return (
     <header className="fixed left-0 top-0 z-50 w-full border-b border-white/15 bg-secondary">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 md:h-[72px] md:px-8">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 md:h-[72px] md:px-5 lg:px-6">
         <a href="#" className="font-serif text-xl md:text-2xl text-white tracking-tight">
           Prospera
         </a>
 
-        <nav className="hidden md:flex items-center gap-7">
+        <nav className="hidden md:flex items-center gap-5 lg:gap-6">
           {navLinks.map((link) => (
             <a
               key={link.href}
@@ -31,7 +31,7 @@ export default function Header() {
           ))}
           <a
             href="#inscricao"
-            className="rounded-lg border border-white/35 bg-light px-5 py-2.5 text-sm font-semibold text-primary transition-colors hover:border-primary hover:bg-primary hover:text-white"
+            className="rounded-lg border border-white/35 bg-light px-4 py-2.5 text-sm font-semibold text-primary transition-colors hover:border-primary hover:bg-primary hover:text-white lg:px-5"
           >
             Garantir vaga
           </a>

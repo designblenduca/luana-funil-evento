@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-secondary">
-      <div className="hidden min-h-[90vh] md:block">
+      <div className="hidden min-h-[calc(100svh-72px)] md:block">
         {desktopImageError ? (
           <div className="editorial-hero-fallback absolute inset-0" aria-hidden="true" />
         ) : (
@@ -21,27 +21,27 @@ export default function Hero() {
           />
         )}
 
-        <div className="relative mx-auto flex min-h-[90vh] max-w-7xl items-center px-8 py-20">
+        <div className="relative mx-auto flex min-h-[calc(100svh-72px)] max-w-7xl items-center px-5 py-8 lg:px-6">
           <motion.div
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.8 }}
-            className="max-w-[680px]"
+            className="max-w-[560px] lg:max-w-[620px]"
           >
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-light">
               Evento presencial Prospera
             </p>
 
-            <h1 className="mt-6 font-serif text-[4.6rem] leading-[0.98] text-white xl:text-[5.5rem]">
+            <h1 className="mt-4 font-serif text-[3.25rem] leading-[0.98] text-white lg:text-[3.75rem] xl:text-[4.15rem]">
               Você fatura bem, mas ainda não entende por que o dinheiro some no final do mês?
             </h1>
 
-            <p className="mt-8 max-w-2xl text-xl leading-relaxed text-white/80">
+            <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/80 lg:text-lg">
               Um dia inteiro para empreendedores e profissionais liberais que já sabem que o problema
               não é só planilha - e estão prontos para ir fundo de verdade.
             </p>
 
-            <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 border-y border-white/20 py-5 text-sm font-medium text-white/80">
+            <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 border-y border-white/20 py-4 text-sm font-medium text-white/80">
               <span className="flex items-center gap-2">
                 <CalendarDays className="h-4 w-4 text-light" />
                 29 de agosto
@@ -58,7 +58,7 @@ export default function Hero() {
 
             <a
               href="#inscricao"
-              className="mt-10 inline-flex items-center justify-center rounded-lg border border-white/35 bg-light px-10 py-4 text-base font-semibold text-primary shadow-[0_22px_70px_rgba(43,108,112,0.28)] transition hover:border-primary hover:bg-primary hover:text-white"
+              className="mt-6 inline-flex items-center justify-center rounded-lg border border-white/35 bg-light px-8 py-3.5 text-base font-semibold text-primary shadow-[0_22px_70px_rgba(43,108,112,0.28)] transition hover:border-primary hover:bg-primary hover:text-white"
             >
               Quero garantir minha vaga
             </a>
