@@ -12,10 +12,10 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             <a
-              href="mailto:contato@programaprospera.com.br"
+              href="mailto:contato@luanacarrarofinancas.com.br"
               className="text-sm text-white/50 hover:text-white transition-colors"
             >
-              contato@programaprospera.com.br
+              contato@luanacarrarofinancas.com.br
             </a>
             <span className="text-white/20">&middot;</span>
             <a

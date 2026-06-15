@@ -5,8 +5,10 @@ const details = [
   { icon: CalendarDays, label: '29 de agosto' },
   { icon: Clock, label: '8h30 às 18h' },
   { icon: MapPin, label: 'Requinte Convention Center — Chapecó' },
-  { icon: Users, label: '50 vagas limitadas' },
+  { icon: Users, label: 'Vagas limitadas' },
 ]
+
+const CHECKOUT_URL = 'https://pay.kiwify.com.br/XRJXIBi'
 
 export default function Signup() {
   return (
@@ -44,19 +46,35 @@ export default function Signup() {
             </div>
 
             <aside className="border-t border-divider bg-light-alt p-7 md:border-l md:border-t-0 md:p-10">
-              <p className="mb-3 text-xs font-medium uppercase tracking-wider text-body/60">
+              <p className="mb-4 text-xs font-medium uppercase tracking-wider text-body/60">
                 Investimento
               </p>
-              <p className="font-serif text-[2.7rem] leading-none text-dark md:text-[3.4rem]">
-                Valor em breve
-              </p>
-              <p className="mt-4 text-sm leading-relaxed text-body">
-                O valor oficial da inscrição será inserido aqui antes da abertura
-                do checkout.
+
+              <div className="mb-2 flex items-baseline gap-3">
+                <span className="text-xs font-semibold uppercase tracking-wider text-primary">
+                  1º lote
+                </span>
+                <p className="font-serif text-[2.7rem] leading-none text-dark md:text-[3.4rem]">
+                  R$ 597
+                  <span className="text-2xl">,00</span>
+                </p>
+              </div>
+
+              <div className="mb-6 border-l-2 border-primary/30 pl-3">
+                <span className="text-xs font-medium text-body/60">2º lote:</span>
+                <span className="ml-2 text-sm font-semibold text-body/70 line-through decoration-body/40">
+                  R$ 797,00
+                </span>
+              </div>
+
+              <p className="text-sm leading-relaxed text-body">
+                Garanta o menor valor enquanto há vagas disponíveis no 1º lote.
               </p>
 
               <a
-                href="#"
+                href={CHECKOUT_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-8 flex w-full items-center justify-center rounded-lg bg-primary px-8 py-4 text-center text-lg font-semibold text-white transition hover:bg-secondary hover:text-dark"
               >
                 Quero garantir minha vaga

@@ -33,12 +33,11 @@ export default function Hero() {
             </p>
 
             <h1 className="mt-4 font-serif text-[3.25rem] leading-[0.98] text-white lg:text-[3.75rem] xl:text-[4.15rem]">
-              Você fatura bem, mas ainda não entende por que o dinheiro some no final do mês?
+              Você fatura acima de R$ 20 mil por mês e ainda não sabe para onde o dinheiro vai?
             </h1>
 
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/80 lg:text-lg">
-              Um dia inteiro para empreendedores e profissionais liberais que já sabem que o problema
-              não é só planilha - e estão prontos para ir fundo de verdade.
+              Um dia presencial para empreendedores que já superaram o problema de vender, mas ainda não resolveram o que fazer com o que ganham.
             </p>
 
             <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 border-y border-white/20 py-4 text-sm font-medium text-white/80">
@@ -57,7 +56,9 @@ export default function Hero() {
             </div>
 
             <a
-              href="#inscricao"
+              href="https://pay.kiwify.com.br/XRJXIBi"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-6 inline-flex items-center justify-center rounded-lg border border-white/35 bg-light px-8 py-3.5 text-base font-semibold text-primary shadow-[0_22px_70px_rgba(43,108,112,0.28)] transition hover:border-primary hover:bg-primary hover:text-white"
             >
               Quero garantir minha vaga
@@ -89,12 +90,11 @@ export default function Hero() {
             </p>
 
             <h1 className="mt-5 font-serif text-[3rem] leading-[1.02] text-white min-[430px]:text-[3.35rem]">
-              Você fatura bem, mas ainda não entende por que o dinheiro some no final do mês?
+              Você fatura acima de R$ 20 mil por mês e ainda não sabe para onde o dinheiro vai?
             </h1>
 
             <p className="mt-6 text-lg leading-relaxed text-white/80">
-              Um dia inteiro para empreendedores e profissionais liberais que já sabem que o problema
-              não é só planilha - e estão prontos para ir fundo de verdade.
+              Um dia presencial para empreendedores que já superaram o problema de vender, mas ainda não resolveram o que fazer com o que ganham.
             </p>
 
             <div className="mt-8 grid gap-3 border-y border-white/20 py-5 text-sm font-medium text-white/75">
@@ -113,7 +113,9 @@ export default function Hero() {
             </div>
 
             <a
-              href="#inscricao"
+              href="https://pay.kiwify.com.br/XRJXIBi"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 flex w-full items-center justify-center rounded-lg border border-white/35 bg-light px-8 py-4 text-center text-base font-semibold text-primary transition hover:border-primary hover:bg-primary hover:text-white"
             >
               Quero garantir minha vaga

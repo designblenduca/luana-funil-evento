@@ -15,10 +15,10 @@ const speakers = [
     name: 'Ricardo Werlang',
     instagram: '@ricardowerlang',
     image: 'assets/ricardo-werlang.jpg',
-    bio: 'Especialista em posicionamento de imagem.',
-    credentials: '',
+    bio: 'Engenheiro de Computação e Mestre em IA com mais de 15 anos transformando tecnologia em resultado real para negócios. Fundador da Blenduca, onde a inovação acelera o conhecimento, Ricardo atua como mentor e consultor para experts e empreendedores que querem usar IA de forma estratégica para escalar seu conhecimento, automatizar processos e faturar mais.',
+    credentials: 'Founder & CTO da Blenduca · Estrategista Digital e Expert em IA para Negócios',
     theme:
-      'Como a forma como você aparece no mercado afeta diretamente o que você cobra, quem você atrai e a autoridade que você projeta.',
+      'Como a inteligência artificial pode trabalhar ao seu lado para atrair os clientes certos, fortalecer sua imagem, produzir conteúdo com consistência e, principalmente, ter mais clareza sobre as finanças do seu negócio.',
   },
 ]
 

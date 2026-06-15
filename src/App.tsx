@@ -3,7 +3,6 @@ import Hero from './components/Hero'
 import PainPoints from './components/PainPoints'
 import AboutEvent from './components/AboutEvent'
 import Experience from './components/Experience'
-import Timeline from './components/Timeline'
 import ForWho from './components/ForWho'
 import Conductor from './components/Conductor'
 import Speakers from './components/Speakers'
@@ -21,7 +20,6 @@ export default function App() {
         <PainPoints />
         <AboutEvent />
         <Experience />
-        <Timeline />
         <ForWho />
         <Conductor />
         <Speakers />

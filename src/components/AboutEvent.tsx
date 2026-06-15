@@ -6,7 +6,7 @@ const info = [
   { icon: Clock, label: 'Horário', value: '8h30 às 18h' },
   { icon: MapPin, label: 'Local', value: 'Requinte Convention Center' },
   { icon: Building2, label: 'Cidade', value: 'Chapecó' },
-  { icon: Users, label: 'Vagas', value: '50 vagas limitadas', highlight: true },
+  { icon: Users, label: 'Vagas', value: 'Vagas limitadas', highlight: true },
 ]
 
 export default function AboutEvent() {
@@ -29,25 +29,20 @@ export default function AboutEvent() {
               <p className="mb-7 max-w-3xl text-lg leading-relaxed text-body md:text-xl">
                 O Evento Prospera é uma imersão presencial de um dia inteiro,
                 das 8h30 às 18h, criada para profissionais que faturam bem,
-                trabalham com propósito - e ainda sentem que o dinheiro escapa
+                trabalham com propósito — e ainda sentem que o dinheiro escapa
                 sem explicação.
               </p>
             </Reveal>
 
             <Reveal delay={0.15}>
               <p className="mb-7 max-w-3xl text-lg leading-relaxed text-body md:text-xl">
-                Não é uma palestra. Não é um curso de finanças pessoais. É uma
-                experiência que une autoconhecimento, comportamento financeiro e
-                estratégia - com a profundidade que você merece e a leveza que
-                você precisa.
+                Não é mais uma palestra, nem um curso de finanças. É uma experiência que une autoconhecimento, comportamento financeiro e estratégia, com a profundidade que seu negócio precisa e a assertividade que você sempre quis.
               </p>
             </Reveal>
 
             <Reveal delay={0.2}>
               <p className="max-w-3xl text-lg leading-relaxed text-body md:text-xl">
-                Aqui você não vai aprender apenas a fazer planilha. Você vai
-                entender por que todas as planilhas que tentou não funcionaram -
-                e o que realmente precisa mudar.
+                Aqui você não vai aprender apenas a fazer planilha. Você vai entender o que vai além dos números, como seus hábitos, comportamentos e mentalidade afetam diretamente no seu resultado financeiro.
               </p>
             </Reveal>
           </div>

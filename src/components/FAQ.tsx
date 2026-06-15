@@ -13,7 +13,7 @@ const items = [
   },
   {
     q: 'Preciso levar algum material?',
-    a: 'Não é necessário. Todo o material será fornecido no local. Se preferir, traga um caderno para anotações pessoais.',
+    a: 'Não é necessário. Todo o material será fornecido no local.',
   },
   {
     q: 'O evento é só para mulheres?',
