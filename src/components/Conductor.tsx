@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import Reveal from './Reveal'
 
-const stats = ['5+ anos', '300+ pessoas atendidas', 'Finanças comportamentais']
+const stats = [
+  { value: '+5 anos', label: 'atuando na área' },
+  { value: '300+', label: 'pessoas atendidas' },
+  { value: '', label: 'Finanças comportamentais' },
+]
 
 export default function Conductor() {
   const [imgError, setImgError] = useState(false)
@@ -40,11 +44,16 @@ export default function Conductor() {
             <h2 className="mb-8 font-serif text-[3rem] leading-[1.04] text-dark md:text-[4.8rem]">
               Luana Carraro
             </h2>
-            <div className="mb-9 grid gap-3 sm:grid-cols-3">
-              {stats.map((stat) => (
-                <div key={stat} className="border-y border-divider py-4">
-                  <p className="text-sm font-semibold uppercase tracking-wider text-primary">
-                    {stat}
+            <div className="mb-9 flex flex-wrap gap-0 border-y border-divider divide-x divide-divider">
+              {stats.map((stat, i) => (
+                <div key={i} className="flex flex-col justify-center px-6 py-4 first:pl-0 last:pr-0">
+                  {stat.value && (
+                    <p className="font-serif text-2xl leading-none text-dark">
+                      {stat.value}
+                    </p>
+                  )}
+                  <p className={`text-xs font-medium uppercase tracking-wider text-primary ${stat.value ? 'mt-1' : 'text-sm'}`}>
+                    {stat.label}
                   </p>
                 </div>
               ))}
